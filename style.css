@@ -1,93 +1,91 @@
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-}
+            .container {
+                text-align:  center;
+                color: white;
+                width: 500px;
+                background-color:rgb(29, 29, 61);
+                border-radius: 10%;
+                overflow: hidden;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                margin: 50px auto;
+                letter-spacing: 2px;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                cursor: default;
+            }
 
-header {
-    text-align: center;
+            .container:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            }
 
-    margin: 50px auto;
+            body {
+                background: linear-gradient(
+                    180deg,
+                    rgb(31, 31, 42),
+                    rgba(31, 31, 36, 0.973)
+                );
+                min-height:100vh;
+                margin: 0;
+            }
 
-    background-color: rgb(0, 0, 0);
-    color: white;
+            .container-image {
+                display: block;
+                margin: 20px auto;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 25%;
+            }
 
-    transform: translateY(-50px);
+            #titulo_principal {
 
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-}
+                text-align: center;
+                color: white;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-shadow: 0 30px 50px rgba(173, 56, 68, 0.12);
+                position: relative;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
 
-main {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 50px auto;
-
-    gap: 20px;
-
-}
-
-footer {
-    text-align: center;
-}
-
-a {
-    display: inline-block;
-
-   border: 0.5px solid rgb(37, 27, 27);
-   padding: 40px;
-   vertical-align: middle;
-   gap: 30px;
-   margin: 90px;
-   border-radius: 4%;
-   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-
-   transition: 0.3s ease;
-}
-
-a:hover {
-
-    transform: translateY(-2px);
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+            #titulo_principal::after {
+                content: '';
+                display: block;
+                width: 60%;
+                max-width:500px;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, white, transparent);
+                margin: 20px auto 0;
+            }
 
 
-}
+            .informacoes {
+                text-align: center;
+                color: white;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-top: 50px;
+                padding: 20px;
+                background-color: rgb(29, 29, 61);
+                border-radius: 10%;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                width: 450px;
+                margin: 50px auto;
+                margin-top: -20px;
+                overflow: auto;
+                letter-spacing: 1px;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+            }
 
-img {
+            .informacoes:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    margin: 50px auto;
-    height: 200px;
-    border-radius: 15%;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    font-size: 60px;
-    text-decoration: double;
-}
-
-footer {
-
-    text-align: left;
-
-    margin: 50px auto;
-
-    background-color: rgb(0, 0, 0);
-    color: white;
-
-    transform: translateY(120px);
-
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-
-}
+            a {
+                color:whitesmoke;
+                text-decoration: none;
+            }

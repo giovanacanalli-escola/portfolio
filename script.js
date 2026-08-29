@@ -1,7 +1,33 @@
-const imagem = document.getElementsByTagName("img")
+const botao = document.getElementById("button");
+let imagem = document.getElementById("image");
 
-addEventListener("click", function ({
+let soma
+let sub
+let multi
+let div
 
-    imagem.src = "https://preview.redd.it/was-anyone-else-not-really-upset-about-erens-death-v0-mp4g9iufo7xf1.jpeg?width=640&crop=smart&auto=webp&s=e925e17ef1ca6858711b6fbfecf411a0019e2108"
 
-}))
+botao.addEventListener("click", () => {
+
+    let nome = prompt("qual seu nome?");
+
+    alert("bem vindo a calculadora, " + nome,".");
+
+    let numero1 = Number(prompt("digite um numero.  "));
+    let numero2 = Number(prompt("digite o segundo numero   "));
+
+    let soma = numero1 + numero2;
+    let sub = numero1 - numero2;
+    let multi = numero1 * numero2;
+    let div = numero1 / numero2;
+
+    alert(
+        "Resultados:\n" +
+        "Soma: " + soma + "\n" +
+        "Subtração: " + sub + "\n" +
+        "Multiplicação: " + multi + "\n" +
+        "Divisão: " + div
+    );
+    
+    imagem.src = "cellbitaegyo.jpeg";
+    });    
