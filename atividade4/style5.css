@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+img {
+    width: max-content;
+    height: max-content;
+
+    margin: 50px auto;
+}
+
+
+#button {
+
+    padding: 60px;
+    border-radius: 10%;
+    text-align: center;
+    margin: 20% 40%;
+    background-color: rgba(255, 0, 0, 0.712);
+    color: white;
+    font-size: 50px;
+
+    box-shadow: 5px 8px solid rgba(36, 36, 36, 0.726);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

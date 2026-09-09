@@ -1,0 +1,34 @@
+html {
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+body {
+    background-color: rgb(25, 36, 85);
+    text-align: center;
+}
+
+
+header {
+
+   background: linear-gradient(135deg, rgb(58, 57, 70), rgba(33, 32, 105, 0.514));
+    text-align: center;
+    margin: 30px auto;
+    margin-top: -35px;
+    font-size: 23px;
+    padding:15px;
+}
+
+main {
+    font-size: 17px;
+}
+
+footer {
+
+    background: linear-gradient(135deg, rgb(58, 57, 70), rgba(33, 32, 105, 0.514));
+    font-size: 20px;
+    padding:15px;
+    margin-top: 200px;
+
+}
