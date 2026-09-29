@@ -3,6 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-color: rgba(250, 235, 215, 0.459);
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *{
@@ -12,4 +16,26 @@ body {
 
 button {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    transition: 0.3s ease;
+
+    outline: inherit;
+    border: none;
+    border-radius: 4%;
+}
+
+button:hover {
+    background-color: aliceblue;
+
+    transform: translateY(-2px);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+
+    text-align: center;
+
+    transform: translateY(-100px);
 }

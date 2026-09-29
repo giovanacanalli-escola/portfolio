@@ -1,41 +1,36 @@
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(228, 227, 235), rgb(170, 170, 201));
 }
 
-header {
+h1 {
+    text-decoration: underline #000000 3px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+header, footer {
+    background-color: black;
+    height: 50px;
+}
+
+    .parent_cards {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.card_0 {
     text-align: center;
+}
 
-    margin: 50px auto;
-
-    background-color: rgb(0, 0, 0);
-    color: white;
-
-    transform: translateY(-50px);
-
+#hange {
+    width: 400px;
+    border-radius: 16%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-main {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 50px auto;
-
-    gap: 20px;
-
-}
-
-footer {
-    text-align: center;
-}
-
-a {
-    display: inline-block;
-
+.card_1, .card_2, .card_3 {
+   display: inline-block;
    border: 0.5px solid rgb(37, 27, 27);
    padding: 40px;
    vertical-align: middle;
@@ -43,51 +38,10 @@ a {
    margin: 90px;
    border-radius: 4%;
    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-
-   transition: 0.3s ease;
 }
 
-a:hover {
-
-    transform: translateY(-2px);
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
-
-
-}
-
-img {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    margin: 50px auto;
+#uruka {
+    width: 400px;
     height: 200px;
-    border-radius: 15%;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    font-size: 60px;
-    text-decoration: double;
-}
-
-footer {
-
-    text-align: left;
-
-    margin: 50px auto;
-
-    background-color: rgb(0, 0, 0);
-    color: white;
-
-    transform: translateY(120px);
-
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-
+    border-radius: 16%;
 }
