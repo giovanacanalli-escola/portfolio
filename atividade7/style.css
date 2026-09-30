@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    transform: translateY(200px);
+}
+
+h1 {
+
+    font-size: 50px;
+
+    text-align: center;
+
+}
+
+button {
+    outline: none;
+    border: none;
+
+    padding: 20px;
+    border-radius: 15%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    transition: 0.3s ease;
+}
+
+button:hover {
+
+    transform: translateY(-3px);
+    background-color: burlywood;
+
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+
+    border-radius: 15%;
+
+    cursor: pointer;
+}
