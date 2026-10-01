@@ -3,4 +3,28 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    margin: 20px auto;
+
+    border: none;
+    border-radius: 5%;
+
+    box-shadow: 22px 24px 60px -5px rgba(0, 0, 0, 0.64);
+-webkit-box-shadow: 22px 24px 60px -5px rgba(0, 0, 0, 0.64);
+}
+
+p {
+    color: #1803036c;
+}
+
+input {
+    border-radius: 0%;
+}
+
+#video {
+    display: none;
 }

@@ -31,8 +31,20 @@ button {
 button:hover {
 
     transform: translateY(-3px);
+    transform: scaleY(1.2);
     background-color: burlywood;
+    cursor: pointer;
 
+}
+
+video, audio {
+    display: none;
+    height: 350px;
+    width: 350;
+
+    border-radius: 5%;
+
+    text-align: center;
 }
 
 p {
@@ -44,7 +56,12 @@ img {
     height: 350px;
     width: 350px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 15%;
+    text-align: center;
 
     cursor: pointer;
 }
