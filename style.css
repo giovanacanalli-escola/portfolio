@@ -5,16 +5,18 @@
 }
 
 body{
-    background-color: beige;
+    background-color: #0B132B;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
     text-align: center;
+    padding: 20px;
 
     margin: 50px auto;
 
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #1C2541;
+    color: #E6E1DF;
 
     transform: translateY(-50px);
 
@@ -23,9 +25,14 @@ header {
 
 main {
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    color: #9E9795;
+
+    transform: translateX(40px);
+
+    flex-wrap: wrap;
 
     margin: 50px auto;
 
@@ -35,28 +42,31 @@ main {
 
 
 a {
+    
     display: inline-block;
+    width: 250px;
+    min-height: 180px;
+    padding: 60px;
+    margin: 50px;
 
-   border: 0.5px solid rgb(37, 27, 27);
-   padding: 40px;
-   vertical-align: middle;
-   gap: 30px;
-   margin: 90px;
-   border-radius: 4%;
-   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #3A506B;
 
-   transition: 0.3s ease;
+    
+    border: 0.5px solid #423D3D;
+    border-radius: 4%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.603);
 
-   text-decoration: none;
-
-   color: black;
+    transition: 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    color: black;
 }
 
 a:hover {
 
     transform: translateY(-2px);
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
-    background-color: rgb(179, 33, 33);
+    background-color: #56779F;
 
 
 }
@@ -81,19 +91,51 @@ h2 {
     justify-content: center;
     align-items: center;
 
+    color: #9E9795;
+
     text-align: center;
     font-size: 60px;
     text-decoration: double;
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: #9E9795;
+    font-size: 30px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: #9E9795;
+    font-size: 25px;
+
+}
+
+
 footer {
 
-    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    gap: 15px;
 
     margin: 50px auto;
     padding: 20px;
 
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #1C2541;
+    color: #E6E1DF;
 
     transform: translateY(120px);
 
